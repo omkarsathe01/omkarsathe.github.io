@@ -1,0 +1,60 @@
+
+
+h1 {
+    color: white;
+}
+
+#contact {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    right: 0;
+}
+
+.python_logo img {
+    position: fixed;
+    width: 9vh;
+    height: 9vh;
+    right: 0;
+    left: 95%;
+    top: 3%;
+}
+
+
+
+#contact h2 {
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: #ea0f1e;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: left;
+}
+
+
+.social_logos img {
+    height: 50px;
+    width: auto;
+    padding-right: 0;
+}
+.social_logos a {
+    margin-left: 10vh;
+    height: 100px;
+    width: 10px;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-top: 9vh;
+    padding-right: 0;
+}
+
+.social_logos {
+    padding-top: 15px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    height: 80px;
+    max-height: 120px;
+    padding-left: 10vh;
+}

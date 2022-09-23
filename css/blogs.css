@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+body {
+    background: #000000;
+    height: 100%;
+}
+
+#blogs {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    right: 0;
+}
+
+.logo img {
+    position: fixed;
+    width: 9vh;
+    height: 9vh;
+    right: 0;
+    left: 95%;
+    top: 3%;
+}
+
+#navbar {
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    
+    color: rgba(255,255,255,.99);
+}
+
+#navbar a {
+    position: relative;
+    float: left;
+    display: block;
+    justify-content: space-between;
+    font-family: 'Roboto Slab', serif;
+    color: rgba(255,255,255,.99);
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 30px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#navbar a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;
+}
+
+
+#navbar a:hover {
+    color: #0d893c;
+    transition: 0.3s;
+}
+
+
+#navbar a:hover:after {
+    width: 100%;
+}
+
+.about_nav:hover {
+    cursor: default;
+}
+
+/* .about_nav {
+    color: #0d893c;
+    transition: none;
+} */
+
+#navbar .active {
+    color: #0d893c;
+    cursor: default;
+    background-color: none;
+}
+
+#navbar .active:hover:after {
+    width: 0;
+}
+
+
+#blogs h2 {
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: #ea0f1e;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}

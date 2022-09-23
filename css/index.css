@@ -1,0 +1,42 @@
+
+.home{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+
+h1 {
+    position: absolute;
+    width: 814px;
+    height: 155px;
+    left: 5%;
+    top: 35%;
+    
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    
+    text-align: center;
+    
+    color: rgba(255,255,255,.99);
+}
+
+.home h2 {
+    position: absolute;
+    width: 826px;
+    height: 77px;
+    left: 5%;
+    top: 55%;
+    
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    
+    color: #ea0f1e;
+}

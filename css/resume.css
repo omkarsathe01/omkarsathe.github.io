@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+body {
+    background: #000000;
+    
+}
+
+#resume {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    right: 0;
+}
+
+
+#resume h2 {
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: #ea0f1e;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: left;
+}
+
+#resume a {
+    display: block;
+    padding: 15px 30px;
+    color: rgba(255,255,255,.99);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Regular';
+    position: absolute;
+    float: right;
+    display: block;
+    top: 110%;
+    left: 80%;
+}
+
+#resume a:hover {
+    color: rgba(0,0,0,.99);
+    background: rgba(255,255,255,.99);
+    box-shadow: 0 0 10px rgba(255,255,255,.99), 0 0 40px rgba(255,255,255,.99), 0 0 80px rgba(255,255,255,.99);
+    transition-delay: 1s;
+}
+
+#resume a span {
+    position: absolute;
+    display: block;
+
+}
+
+#resume a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.99));
+}
+
+#resume a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+#resume a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,rgba(255,255,255,.99));
+}
+
+#resume a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#resume a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,rgba(255,255,255,.99));
+}
+
+#resume a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#resume a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,rgba(255,255,255,.99));
+}
+
+#resume a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+#navbar .active {
+    color: #0d893c;
+    cursor: default;
+    background-color: none;
+}
+
+#navbar .active:hover:after {
+    width: 0;
+}
+
+
+
+
+#resme {
+    text-align: center;
+}
+
+#resume .text {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: rgb(17, 29, 162);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.logo img {
+    position: fixed;
+    width: 9vh;
+    height: 9vh;
+    right: 0;
+    left: 95%;
+    top: 3%;
+}
+
+
+#navbar {
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    
+    color: rgba(255,255,255,.99);
+}
+
+#navbar a {
+    position: relative;
+    float: left;
+    display: block;
+    justify-content: space-between;
+    font-family: 'Roboto Slab', serif;
+    color: rgba(255,255,255,.99);
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 30px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#navbar a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;
+}
+
+
+#navbar a:hover {
+    color: #0d893c;
+    transition: 0.3s;
+}
+
+
+#navbar a:hover:after {
+    width: 100%;
+}
+
+iframe {
+    box-sizing: inherit;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 17%;
+    width: 70%;
+    max-width: 600;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.99);
+    border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0d893c;
+    border-radius: 50px;
+}

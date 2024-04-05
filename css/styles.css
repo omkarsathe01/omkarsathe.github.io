@@ -1,0 +1,67 @@
+* {
+  color: black;
+  font-family: "Jost", sans-serif;
+  margin: 0%;
+  /* line-height: 150%; */
+}
+
+body::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+.main-left-right-top-bottom {
+  padding: 30px;
+}
+
+.omkar-sathe {
+  margin: 60px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 96px;
+}
+
+.omkar-sathe p {
+  font-weight: 200;
+  font-size: 64px;
+  color: blue;
+}
+
+.get-in-touch-button {
+  align-items: center;
+  justify-content: center;
+  /* margin: 30px; */
+  padding: 60px;
+}
+
+.get-in-touch-button p {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.omkar-sathe h2 {
+  font-weight: 400;
+  font-size: 64px;
+  color: blue;
+}
+
+.social-icons {
+  /* align-items: center; */
+  margin: 30px;
+  /* justify-content: center; */
+  display: flex;
+  justify-content:center
+}
+
+.social-icons-nested {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons img {
+  opacity: 0.75;
+  cursor: pointer;
+}
